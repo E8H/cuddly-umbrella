@@ -162,3 +162,11 @@ body{
   text-align: center;
   color: rgb(8, 8, 8);
 }
+#links2 {
+  position: absolute;
+  height: 5px;
+  width: 150px;
+  margin: 10px;
+  bottom: 0;
+  display: flex;
+}
