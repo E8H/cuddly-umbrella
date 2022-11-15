@@ -181,4 +181,7 @@ fagiant {
     place-content: center;
     text-align: center;
     color: rgb(8, 8, 8);
+    font-family: AmericanText; 
+    font-size: 1.5em; 
+    text-shadow: 0 0 0.40em #FFD700;
 }
