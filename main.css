@@ -7,8 +7,8 @@
     src: url(pricedown.otf); 
   }
   @font-face {
-    font-family: derk;
-    src: url(derk.otf);
+    font-family: AmericanText;
+    src: url(AmericanText.ttf);
   }
     html {
     font-family: mono;
