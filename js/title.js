@@ -23,4 +23,4 @@ setInterval(function(){
     }
     document.title = titles[i];
     i++;
-}, 100);
+}, 150);
