@@ -144,3 +144,12 @@ body{
       color: rgb(255, 215, 0);
 }
 .nocursor            { cursor: none; }
+#links {
+  position: absolute;
+  height: 20px;
+  width: 150px;
+  margin: 10px;
+  right: 0px;
+  bottom: 0;
+  display: flex;
+}
