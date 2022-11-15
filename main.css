@@ -143,3 +143,4 @@ body{
   text-decoration: underline;
       color: rgb(255, 215, 0);
 }
+.nocursor            { cursor: none; }
