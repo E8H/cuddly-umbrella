@@ -1,0 +1,37 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+  #overlay-toggle {
+    position:absolute;
+    display: none;
+  }
+  .overlay {
+    z-index: 1;
+    background-color: black;
+  }
+  .overlay label {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vw;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+  }
+  .text-content a:hover {
+    opacity: 0.8;
+  }
+  .no-hover {
+    display: block;
+  }
+  .hover {
+    display: none;
+  }
+.fullscreen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100vh;
+    min-width: 100vw;
+  }
