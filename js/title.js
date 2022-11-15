@@ -1,10 +1,9 @@
 var i=0;
 setInterval(function(){
     var titles=[
-"uzi.club",
-"uzi.clu",
-"uzi.cl",
-"uzi.c",
+"uzi.rip",
+"uzi.ri",
+"uzi.r",
 "uzi.",
 "uzi",
 "uz",
@@ -12,10 +11,9 @@ setInterval(function(){
 "uz",
 "uzi",
 "uzi.",
-"uzi.c",
-"uzi.cl",
-"uzi.clu",
-"uzi.club"
+"uzi.r",
+"uzi.ri",
+"uzi.rip"
 ]
 
     if(i===titles.length) {
