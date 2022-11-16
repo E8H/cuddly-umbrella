@@ -75,7 +75,7 @@
     display: grid;
     place-content: center;
     text-align: center;
-    color: rgb(129, 129, 129);
+    color: rgb(65, 65, 65);
   }
   .text-content h1 {
     font-size: 3rem;
