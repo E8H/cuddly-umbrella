@@ -1,4 +1,4 @@
-var colour="gold";
+var colour="purple";
 		var sparkles=50;
 		var x=ox=400;
 		var y=oy=300;
