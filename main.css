@@ -10,8 +10,13 @@
     font-family: AmericanText;
     src: url(AmericanText.ttf);
   }
-    html {
-    font-family: mono;
+  @font-face {
+    font-family: BIOWEAPON;
+    src: url(BIOWEAPON.ttf);
+  }
+  @font-face {
+    font-family: ModerneSansFont;
+    src: url(Moderne Sans Font.ttf);
   }
   *, *::after, *::before {
     box-sizing: inherit;
