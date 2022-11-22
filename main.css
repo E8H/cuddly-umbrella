@@ -206,3 +206,11 @@ fagiant {
   animation: rainbow_animation 4s ease-in-out infinite;
   background-size: 400% 100%;
 }
+.rainbow_text_animated {
+  background: linear-gradient(to right, #8f56e7, #e54a72, #d6b8f5, #1dce9c, #87d9ee);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 3s ease-in-out infinite;
+  background-size: 400% 100%;
+}
