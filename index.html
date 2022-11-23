@@ -15,6 +15,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
+        <link href="pointer.css" rel="stylesheet">
     </head>
     <script type="text/javascript" src="/js/title.js"></script>
     <body>
@@ -71,7 +72,13 @@
 <script type="text/javascript" src="/js/view.js"></script>
 <script type="text/javascript" src="/js/clock.js"></script>
 <script type="text/javascript" src="/js/spark.js"></script>
+<script type="text/javascript" src="pointer.js"></script>
 <script type="text/javascript" src="/js/type.js"></script>
+init_pointer({
+	pointerColor: "purple", // Css color
+	ringSize: 15, // Pixels
+	ringClickSize: 10 // Pixels when clicking
+})
             </div>
             </div>
         </main>
