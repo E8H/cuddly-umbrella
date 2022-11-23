@@ -223,6 +223,7 @@ fagiant {
   border-bottom: 1px solid #000000;
   animation: rainbow_animation 4s ease-in-out infinite;
   background-size: 400% 100%;
+  z-index:99999;
 }
 .text-scroll{
   color:#fff;
