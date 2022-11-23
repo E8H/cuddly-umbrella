@@ -230,3 +230,6 @@ fagiant {
   z-index:2;
   width:100%
 }
+.blurs {
+   blur(1.17rem)
+}
