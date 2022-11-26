@@ -232,3 +232,21 @@ fagiant {
   z-index:2;
   width:100%
 }
+.rainbow_text_animatedv {
+  background: linear-gradient(to right, #8f56e7, #e78f56, #56e78f, #d856e7, #d5666e7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animationv 3s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes rainbow_animationv {
+  0%,100% {
+      background-position: 0 0;
+  }
+
+  50% {
+      background-position: 100% 0;
+  }
+}
