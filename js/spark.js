@@ -1,5 +1,6 @@
-var colour="purple";
+var colour="random";
 		var sparkles=50;
+
 		var x=ox=400;
 		var y=oy=300;
 		var swide=800;
@@ -13,6 +14,7 @@ var colour="purple";
 		var tinyx=new Array();
 		var tinyy=new Array();
 		var tinyv=new Array();
+
 		window.onload=function() { if (document.getElementById) {
 		  var i, rats, rlef, rdow;
 		  for (var i=0; i<sparkles; i++) {
@@ -39,6 +41,7 @@ var colour="purple";
 		  set_width();
 		  sparkle();
 		}}
+
 		function sparkle() {
 		  var c;
 		  if (Math.abs(x-ox)>1 || Math.abs(y-oy)>1) {
@@ -87,6 +90,7 @@ var colour="purple";
 		    tiny[i].style.visibility="visible"
 		  }
 		}
+
 		function update_tiny(i) {
 		  if (--tinyv[i]==25) {
 		    tiny[i].style.width="1px";
@@ -107,6 +111,7 @@ var colour="purple";
 		  }
 		  else tiny[i].style.visibility="hidden";
 		}
+
 		document.onmousemove=mouse;
 		function mouse(e) {
 		  if (e) {
@@ -119,6 +124,7 @@ var colour="purple";
 		    x=event.x+sleft;
 		  }
 		}
+
 		window.onscroll=set_scroll;
 		function set_scroll() {
 		  if (typeof(self.pageYOffset)=='number') {
@@ -138,6 +144,7 @@ var colour="purple";
 		    sleft=0;
 		  }
 		}
+
 		window.onresize=set_width;
 		function set_width() {
 		  var sw_min=999999;
@@ -161,6 +168,7 @@ var colour="purple";
 		  swide=sw_min;
 		  shigh=sh_min;
 		}
+
 		function createDiv(height, width) {
 		  var div=document.createElement("div");
 		  div.style.position="absolute";
@@ -169,6 +177,7 @@ var colour="purple";
 		  div.style.overflow="hidden";
 		  return (div);
 		}
+
 		function newColour() {
 		  var c=new Array();
 		  c[0]=255;
