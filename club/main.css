@@ -10,8 +10,13 @@
     font-family: AmericanText;
     src: url(AmericanText.ttf);
   }
-    html {
-    font-family: mono;
+  @font-face {
+    font-family: BIOWEAPON;
+    src: url(BIOWEAPON.ttf);
+  }
+  @font-face {
+    font-family: ModerneSansFont;
+    src: url(Moderne Sans Font.ttf);
   }
   *, *::after, *::before {
     box-sizing: inherit;
@@ -184,4 +189,46 @@ fagiant {
     font-family: AmericanText; 
     font-size: 1.5em; 
     text-shadow: 0 0 0.40em #FFD700;
+}
+.rainbow_text_animated {
+  background: linear-gradient(to right, #8f56e7, #e54a72, #d6b8f5, #1dce9c, #87d9ee);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 3s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+  0%,100% {
+      background-position: 0 0;
+  }
+
+  50% {
+      background-position: 100% 0;
+  }
+}
+.bar {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  background: #1e5799;
+  background: -moz-linear-gradient(left,  #1e5799 0%, #f300ff 50%, #e0ff00 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(50%,#f300ff), color-stop(100%,#e0ff00));
+  background: -webkit-linear-gradient(left,  #1e5799 0%,#f300ff 50%,#e0ff00 100%);
+  background: -o-linear-gradient(left,  #1e5799 0%,#f300ff 50%,#e0ff00 100%);
+  background: -ms-linear-gradient(left,  #1e5799 0%,#f300ff 50%,#e0ff00 100%);
+  background: linear-gradient(to right,  #1e5799 0%,#f300ff 50%,#e0ff00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#e0ff00',GradientType=1 );
+  height: 5px;
+  border-bottom: 1px solid #000000;
+  animation: rainbow_animation 4s ease-in-out infinite;
+  background-size: 400% 100%;
+  z-index:3;
+}
+.text-scroll{
+  color:#fff;
+  font-weight:700;
+  z-index:2;
+  width:100%
 }
